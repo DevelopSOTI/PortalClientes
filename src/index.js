@@ -13,7 +13,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename="/PortalClientes">
         <AuthProvider>
           <App />
         </AuthProvider>
